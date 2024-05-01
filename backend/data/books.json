@@ -1,0 +1,114 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 12.99,
+      "description": "A gripping portrayal of racial injustice and moral growth in a small Southern town.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/640px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+      "exhausted": false
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "price": 10.99,
+      "description": "A dystopian novel set in a totalitarian regime, exploring the dangers of government overreach and surveillance.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/1984-orwell-en-librairies-petite_%28cropped%29.jpg/640px-1984-orwell-en-librairies-petite_%28cropped%29.jpg",
+      "exhausted": true
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 11.99,
+      "description": "A classic American novel depicting the decadence and moral ambiguity of the Jazz Age.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/The_Great_Gatsby_cover_1925_wikisource.jpg/640px-The_Great_Gatsby_cover_1925_wikisource.jpg",
+      "exhausted": false
+    },
+    {
+      "id": 4,
+      "title": "To the Lighthouse",
+      "author": "Virginia Woolf",
+      "price": 13.99,
+      "description": "A modernist novel that follows the lives of the Ramsay family and their guests during a summer vacation in Scotland.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Al_faro._Virginia_Woolf%2C_1927.jpg/640px-Al_faro._Virginia_Woolf%2C_1927.jpg",
+      "exhausted": false
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 10.49,
+      "description": "A coming-of-age novel narrated by Holden Caulfield, a disaffected teenager navigating the challenges of adolescence.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Catcher-in-the-rye-red-cover.jpg/640px-Catcher-in-the-rye-red-cover.jpg",
+      "exhausted": false
+    },
+    {
+      "id": 6,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "price": 14.99,
+      "description": "An epic tale of obsession and revenge as Captain Ahab pursues the elusive white whale across the oceans.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Moby_Dick_for_Wikicommons.jpg/640px-Moby_Dick_for_Wikicommons.jpg",
+      "exhausted": false
+    }
+  ],
+  "orders": [
+    {
+      "customer": "enescan",
+      "phone": "12345678",
+      "address": "Batman, Batman , Turkiye",
+      "priority": "true",
+      "cart": [
+        {
+          "bookId": 1,
+          "title": "To Kill a Mockingbird",
+          "quantity": 1,
+          "price": 12.99,
+          "totalPrice": 12.99
+        },
+        {
+          "bookId": 3,
+          "title": "The Great Gatsby",
+          "quantity": 2,
+          "price": 11.99,
+          "totalPrice": 23.98
+        }
+      ],
+      "position": "37.8954461,41.1376197",
+      "priorityPrice": 7.394,
+      "orderPrice": 36.97,
+      "estimatedDelivery": "2024-05-03T19:00:06.242Z",
+      "id": "67lDD4U"
+    },
+    {
+      "customer": "enescan",
+      "phone": "12345678",
+      "address": "Batman, Batman , Turkiye",
+      "cart": [
+        {
+          "bookId": 3,
+          "title": "The Great Gatsby",
+          "quantity": 3,
+          "price": 11.99,
+          "totalPrice": 35.97
+        },
+        {
+          "bookId": 4,
+          "title": "To the Lighthouse",
+          "quantity": 3,
+          "price": 13.99,
+          "totalPrice": 41.97
+        }
+      ],
+      "position": "37.8954304,41.1376605",
+      "priorityPrice": 15.588000000000001,
+      "orderPrice": 77.94,
+      "estimatedDelivery": "2024-05-03T08:06:48.180Z",
+      "id": "gXmSFlh",
+      "priority": true
+    }
+  ]
+}
